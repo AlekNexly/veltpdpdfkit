@@ -19,6 +19,7 @@ export const PSPDFKitContainer = () => {
                     container: containerRef.current,
                     document: DOC_URL,
                     baseUrl: VIEWER_LIB_STATIC_URL,
+                    useIframe: true
                 });
 
                 setPDFInstance(instance);
